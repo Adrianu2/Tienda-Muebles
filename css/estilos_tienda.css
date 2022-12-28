@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+nav a{
+    
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+h2{
+    
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+h5{
+    color: black;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    
+    
+}
+.titulo{
+    color: blue;
+}
+.contenedor{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    }
+
+
+.contenedor_parrafo{
+    background-color: rgb(8, 119, 167);
+    padding: 2rem;
+    color: white;
+    line-height: 1.5rem;
+}
+.contenedor__carrito{
+    
+    background-color:chartreuse;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.precio{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    line-height: 4rem;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 60rem;
+    gap: 2rem;
+    
+}
+.grid_productos{
+    display: inline-block;
+    background-color: rgb(8,119,167);
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.grid_productos p{
+    padding: 0.5rem;
+}
+
+.carrito{
+    display: inline-block;
+    background-color:chartreuse;
+    color: white;
+    padding: 0.5rem;
+    font-size: larger;
+    width: 20rem;
+    margin-block: 0.8rem;
+    text-decoration: none;
+    
+}
+.carrito2{
+    display: inline-block;
+    background-color:chartreuse;
+    color: white;
+    padding: 0.5rem;
+    font-size: larger;
+    width: 14rem;
+    margin-block: 0.8rem;
+    text-decoration: none;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+    
+
+}
+.informacion{
+    margin-top: 2rem;
+    background-color: rgb(8,119,167);
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    
+}
+.informacion p{
+    padding: 0.4rem;
+    justify-content: center;
+    
+}
+    
+.final_de_pagina{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding: 4rem;
+    
+
+}
+.final_de_pagina li{
+
+    list-style: none;
+    
+}
+.parrafo_final{
+    padding: 2rem;
+    text-align: center;
+
+}

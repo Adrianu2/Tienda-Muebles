@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+nav a{
+    
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+h2{
+    
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+h3{
+    
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+h4{
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+h5{
+    color: black;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1rem;
+    margin: 0 auto;
+    
+}
+.titulo{
+
+    color: blue;
+}
+.lista{
+    display: flex;
+    
+    padding: 2rem;
+    
+}
+
+.contenedor{
+    max-width: 60rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    
+}
+.guia{
+    margin-top: -2rem;
+    text-align: left;
+    
+    
+}
+.parrafo_blog{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+}
+
+img{
+    max-width: 90%;
+    background-size: cover;
+}
+.boton{
+    display: inline-block;
+    background-color:chartreuse;
+    color: white;
+    padding: 0.5rem;
+    font-size: larger;
+    width: 20rem;
+    text-decoration: none;
+    border: chartreuse;
+}
